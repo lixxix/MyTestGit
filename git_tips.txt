@@ -1,0 +1,2 @@
+1. git commit --amend -m '??' 修改提交的注释
+2. .gitignore 文件可以设置排除项目
