@@ -1,2 +1,9 @@
 1. git commit --amend -m '??' 修改提交的注释
 2. .gitignore 文件可以设置排除项目
+3. git reset xxx 设置到xxx节点 文件不变    git reset --hard xxx 强制返回到 xxx节点 文件返回到对应节点内容
+4. git reflog 获取操作记录
+5. alias  xxx = 'xxxx' 设定命令的别名 git log --all --decorate --oneline --graph 
+6. git merge <branch>	分支合并
+7. git diff <branch1>..<branch2>	比较连个分支的不同
+8. git branch -d || -D 删除分支， -d如果有相同可以直接删除， -D强制删除分支
+9. git checkout sha1 将Head指向对应节点
